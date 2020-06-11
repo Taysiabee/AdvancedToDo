@@ -1,0 +1,178 @@
+/* 
+==============================================
+CONTENT:	Project Name Here
+AUTHOR:		Your Name Here
+==============================================
+
+TABLE OF CONTENTS:
+
+0. Reset
+1. Main Layout
+2. Content
+
+==============================================
+*/
+/* 0. Reset ================================= */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 1. Main Layout ================================= */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: darkcyan;
+}
+
+/* 2. Content ================================= */
+.container {
+  position: relative;
+  background: #26555a;
+  padding: 50px 30px 50px;
+  font-family: sans-serif;
+  width: 90%;
+  max-width: 600px;
+  margin: 140px auto;
+  border-radius: 2px;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  color: #e5c984;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-top: 30px;
+  color: #e5c984;
+}
+
+.todo {
+  margin-top: 10px;
+  border: 2px solid black;
+  margin: 10px 0;
+}
+.todo li {
+  color: black;
+  padding: 10px 5px;
+  border-bottom: 1px solid #999;
+}
+.todo li:last-child {
+  border-bottom: none;
+}
+.todo li.finished {
+  text-decoration: line-through;
+  color: red;
+}
+
+button {
+  border-radius: 2px;
+  background-color: #79AE8E;
+  border: #79AE8E;
+}
+button.back {
+  border-radius: 10px;
+  background-color: #ba534f;
+  border: #ba534f;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-item {
+  background-color: #e5c984;
+  border: #e5c984;
+  border-radius: 4px;
+  padding: 9px;
+  margin-left: 11px;
+}
+
+.clear-finished {
+  border-radius: 10px;
+  background-color: #79ae8e;
+  padding: 1%;
+  border: #79ae8e;
+}
+
+.new-item {
+  background-color: #e5c984;
+  padding: 7px;
+}
+
+.stats {
+  margin-top: 10px;
+  color: #e5c984;
+}
+
+.fuck-it {
+  background-color: #ba534f;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1%;
+  border: #ba534f;
+}
+
+.total {
+  color: #ba534f;
+}
+
+.done {
+  color: #ba534f;
+}
+/*# sourceMappingURL=main.css.map */

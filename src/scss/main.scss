@@ -1,0 +1,142 @@
+/* 
+==============================================
+CONTENT:	Project Name Here
+AUTHOR:		Your Name Here
+==============================================
+
+TABLE OF CONTENTS:
+
+0. Reset
+1. Main Layout
+2. Content
+
+==============================================
+*/
+
+/* 0. Reset ================================= */
+@import 'reset';
+
+
+/* 1. Main Layout ================================= */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: darkcyan;
+}
+
+
+
+
+/* 2. Content ================================= */
+
+.container {
+	position: relative;
+	background: #26555a;
+	padding: 50px 30px 50px;
+	font-family: sans-serif;
+	width: 90%;
+	max-width: 600px;
+	margin: 140px auto;
+	border-radius: 2px;
+}
+
+
+h1 {
+	font-size: 2em;
+	text-align: center;
+	color: #e5c984;
+}
+
+h2 {
+	font-size: 1.5em;
+	margin-top: 30px;
+	color: #e5c984;
+}
+
+.todo {
+	margin-top: 10px;
+	border: 2px solid black;
+	margin: 10px 0;
+	li {
+		color: black;
+		padding: 10px 5px;
+		border-bottom: 1px solid #999;
+		&:last-child {
+			border-bottom: none;
+		}
+
+		&.finished {
+			text-decoration: line-through;
+			color: red;
+		}
+	}
+}
+
+button{
+	border-radius: 2px;
+	background-color: #79AE8E;
+	border: #79AE8E;
+	// width: 20px;
+
+	&.back {
+		border-radius: 10px;
+		background-color: #ba534f;
+		border: #ba534f;
+	}
+
+}
+
+li{
+	display: flex;
+    justify-content: space-between;
+}
+
+.add-item{
+	
+	background-color: #e5c984;
+	border: #e5c984;
+	border-radius: 4px;
+	padding: 9px;
+	margin-left: 11px;
+}
+
+.clear-finished{
+	border-radius: 10px;
+	background-color: #79ae8e;
+	padding: 1%;
+	border: #79ae8e;
+}
+
+.new-item{
+	background-color: #e5c984;
+	padding: 7px;
+}
+
+.stats{
+	margin-top: 10px;
+	color: #e5c984;
+}
+
+.fuck-it{
+	background-color: #ba534f;
+	border-radius: 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 1%;
+	border: #ba534f;
+}
+
+.total{
+	color: #ba534f;
+}
+
+.done{
+	color: #ba534f;
+}
+
+
+
+
